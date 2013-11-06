@@ -19,7 +19,7 @@
 		D28A333B1767824F007B5938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331A1767824F007B5938 /* Foundation.framework */; };
 		D28A333C1767824F007B5938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331E1767824F007B5938 /* UIKit.framework */; };
 		D28A33441767824F007B5938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28A33421767824F007B5938 /* InfoPlist.strings */; };
-		D28A33461767824F007B5938 /* testingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A33451767824F007B5938 /* testingTests.m */; };
+		D28A33461767824F007B5938 /* CustomLinkRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +28,11 @@
 			containerPortal = D28A330F1767824F007B5938 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D28A33161767824F007B5938;
-			remoteInfo = testing;
+			remoteInfo = CustomLinkRecognition;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		75766217252F4D53A107BFBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A33171767824F007B5938 /* CustomLinkRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLinkRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A331A1767824F007B5938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D28A331C1767824F007B5938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +50,7 @@
 		D28A33391767824F007B5938 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D28A33411767824F007B5938 /* CustomLinkRecognitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomLinkRecognitionTests-Info.plist"; sourceTree = "<group>"; };
 		D28A33431767824F007B5938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D28A33451767824F007B5938 /* testingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingTests.m; sourceTree = "<group>"; };
+		D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLinkRecognitionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +103,6 @@
 				D28A331C1767824F007B5938 /* CoreGraphics.framework */,
 				D28A331E1767824F007B5938 /* UIKit.framework */,
 				D28A33391767824F007B5938 /* XCTest.framework */,
-				75766217252F4D53A107BFBC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,7 +134,7 @@
 		D28A333F1767824F007B5938 /* CustomLinkRecognitionTests */ = {
 			isa = PBXGroup;
 			children = (
-				D28A33451767824F007B5938 /* testingTests.m */,
+				D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */,
 				D28A33401767824F007B5938 /* Supporting Files */,
 			);
 			path = CustomLinkRecognitionTests;
@@ -167,7 +165,7 @@
 			dependencies = (
 			);
 			name = CustomLinkRecognition;
-			productName = testing;
+			productName = CustomLinkRecognition;
 			productReference = D28A33171767824F007B5938 /* CustomLinkRecognition.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -185,7 +183,7 @@
 				D28A333E1767824F007B5938 /* PBXTargetDependency */,
 			);
 			name = CustomLinkRecognitionTests;
-			productName = testingTests;
+			productName = CustomLinkRecognitionTests;
 			productReference = D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -258,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28A33461767824F007B5938 /* testingTests.m in Sources */,
+				D28A33461767824F007B5938 /* CustomLinkRecognitionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,19 +391,19 @@
 		D28A334D1767824F007B5938 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing.app/testing";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomLinkRecognition.app/CustomLinkRecognition";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testing/testing-Prefix.pch";
+				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "testingTests/CustomLinkRecognitionTests-Info.plist";
+				INFOPLIST_FILE = "CustomLinkRecognitionTests/CustomLinkRecognitionTests-Info.plist";
 				PRODUCT_NAME = CustomLinkRecognitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -415,15 +413,15 @@
 		D28A334E1767824F007B5938 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing.app/testing";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomLinkRecognition.app/CustomLinkRecognition";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testing/testing-Prefix.pch";
-				INFOPLIST_FILE = "testingTests/CustomLinkRecognitionTests-Info.plist";
+				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
+				INFOPLIST_FILE = "CustomLinkRecognitionTests/CustomLinkRecognitionTests-Info.plist";
 				PRODUCT_NAME = CustomLinkRecognitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

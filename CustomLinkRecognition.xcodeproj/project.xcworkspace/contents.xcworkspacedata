@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testing.xcodeproj">
+      location = "self:CustomLinkRecognition.xcodeproj">
    </FileRef>
 </Workspace>
