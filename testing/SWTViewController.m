@@ -22,6 +22,7 @@
     self.view.userInteractionEnabled = YES;
     
     self.textView = [[UITextView alloc] initWithFrame:CGRectInset(self.view.bounds, 40, 40)];
+    self.textView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     self.textView.font = [UIFont systemFontOfSize:16.0];
     self.textView.selectable = NO;
     [self.view addSubview:self.textView];
