@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A6A61A757C94F6C97E40DA0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75766217252F4D53A107BFBC /* libPods.a */; };
 		D28A331B1767824F007B5938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331A1767824F007B5938 /* Foundation.framework */; };
 		D28A331D1767824F007B5938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331C1767824F007B5938 /* CoreGraphics.framework */; };
 		D28A331F1767824F007B5938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331E1767824F007B5938 /* UIKit.framework */; };
@@ -35,25 +34,24 @@
 
 /* Begin PBXFileReference section */
 		75766217252F4D53A107BFBC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28A33171767824F007B5938 /* testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A33171767824F007B5938 /* CustomLinkRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLinkRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A331A1767824F007B5938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D28A331C1767824F007B5938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D28A331E1767824F007B5938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D28A33221767824F007B5938 /* testing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testing-Info.plist"; sourceTree = "<group>"; };
+		D28A33221767824F007B5938 /* CustomLinkRecognition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomLinkRecognition-Info.plist"; sourceTree = "<group>"; };
 		D28A33241767824F007B5938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D28A33261767824F007B5938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D28A33281767824F007B5938 /* testing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testing-Prefix.pch"; sourceTree = "<group>"; };
+		D28A33281767824F007B5938 /* CustomLinkRecognition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomLinkRecognition-Prefix.pch"; sourceTree = "<group>"; };
 		D28A33291767824F007B5938 /* SWTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTAppDelegate.h; sourceTree = "<group>"; };
 		D28A332A1767824F007B5938 /* SWTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTAppDelegate.m; sourceTree = "<group>"; };
 		D28A332F1767824F007B5938 /* SWTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTViewController.h; sourceTree = "<group>"; };
 		D28A33301767824F007B5938 /* SWTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTViewController.m; sourceTree = "<group>"; };
 		D28A33321767824F007B5938 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D28A33381767824F007B5938 /* testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLinkRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A33391767824F007B5938 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D28A33411767824F007B5938 /* testingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testingTests-Info.plist"; sourceTree = "<group>"; };
+		D28A33411767824F007B5938 /* CustomLinkRecognitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomLinkRecognitionTests-Info.plist"; sourceTree = "<group>"; };
 		D28A33431767824F007B5938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D28A33451767824F007B5938 /* testingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingTests.m; sourceTree = "<group>"; };
-		F1243F19332149F7B1CBA0BD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				D28A331D1767824F007B5938 /* CoreGraphics.framework in Frameworks */,
 				D28A331F1767824F007B5938 /* UIKit.framework in Frameworks */,
 				D28A331B1767824F007B5938 /* Foundation.framework in Frameworks */,
-				8A6A61A757C94F6C97E40DA0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,19 +81,18 @@
 		D28A330E1767824F007B5938 = {
 			isa = PBXGroup;
 			children = (
-				D28A33201767824F007B5938 /* testing */,
-				D28A333F1767824F007B5938 /* testingTests */,
+				D28A33201767824F007B5938 /* CustomLinkRecognition */,
+				D28A333F1767824F007B5938 /* CustomLinkRecognitionTests */,
 				D28A33191767824F007B5938 /* Frameworks */,
 				D28A33181767824F007B5938 /* Products */,
-				F1243F19332149F7B1CBA0BD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		D28A33181767824F007B5938 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D28A33171767824F007B5938 /* testing.app */,
-				D28A33381767824F007B5938 /* testingTests.xctest */,
+				D28A33171767824F007B5938 /* CustomLinkRecognition.app */,
+				D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D28A33201767824F007B5938 /* testing */ = {
+		D28A33201767824F007B5938 /* CustomLinkRecognition */ = {
 			isa = PBXGroup;
 			children = (
 				D28A33291767824F007B5938 /* SWTAppDelegate.h */,
@@ -123,33 +119,33 @@
 				D28A33321767824F007B5938 /* Images.xcassets */,
 				D28A33211767824F007B5938 /* Supporting Files */,
 			);
-			path = testing;
+			path = CustomLinkRecognition;
 			sourceTree = "<group>";
 		};
 		D28A33211767824F007B5938 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D28A33221767824F007B5938 /* testing-Info.plist */,
+				D28A33221767824F007B5938 /* CustomLinkRecognition-Info.plist */,
 				D28A33231767824F007B5938 /* InfoPlist.strings */,
 				D28A33261767824F007B5938 /* main.m */,
-				D28A33281767824F007B5938 /* testing-Prefix.pch */,
+				D28A33281767824F007B5938 /* CustomLinkRecognition-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D28A333F1767824F007B5938 /* testingTests */ = {
+		D28A333F1767824F007B5938 /* CustomLinkRecognitionTests */ = {
 			isa = PBXGroup;
 			children = (
 				D28A33451767824F007B5938 /* testingTests.m */,
 				D28A33401767824F007B5938 /* Supporting Files */,
 			);
-			path = testingTests;
+			path = CustomLinkRecognitionTests;
 			sourceTree = "<group>";
 		};
 		D28A33401767824F007B5938 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D28A33411767824F007B5938 /* testingTests-Info.plist */,
+				D28A33411767824F007B5938 /* CustomLinkRecognitionTests-Info.plist */,
 				D28A33421767824F007B5938 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -158,28 +154,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D28A33161767824F007B5938 /* testing */ = {
+		D28A33161767824F007B5938 /* CustomLinkRecognition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D28A33491767824F007B5938 /* Build configuration list for PBXNativeTarget "testing" */;
+			buildConfigurationList = D28A33491767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognition" */;
 			buildPhases = (
-				6E1444DFCAFF4374B25221FB /* Check Pods Manifest.lock */,
 				D28A33131767824F007B5938 /* Sources */,
 				D28A33141767824F007B5938 /* Frameworks */,
 				D28A33151767824F007B5938 /* Resources */,
-				7130F6BD4B684C839EA06906 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = testing;
+			name = CustomLinkRecognition;
 			productName = testing;
-			productReference = D28A33171767824F007B5938 /* testing.app */;
+			productReference = D28A33171767824F007B5938 /* CustomLinkRecognition.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D28A33371767824F007B5938 /* testingTests */ = {
+		D28A33371767824F007B5938 /* CustomLinkRecognitionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "testingTests" */;
+			buildConfigurationList = D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognitionTests" */;
 			buildPhases = (
 				D28A33341767824F007B5938 /* Sources */,
 				D28A33351767824F007B5938 /* Frameworks */,
@@ -190,9 +184,9 @@
 			dependencies = (
 				D28A333E1767824F007B5938 /* PBXTargetDependency */,
 			);
-			name = testingTests;
+			name = CustomLinkRecognitionTests;
 			productName = testingTests;
-			productReference = D28A33381767824F007B5938 /* testingTests.xctest */;
+			productReference = D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D28A33121767824F007B5938 /* Build configuration list for PBXProject "testing" */;
+			buildConfigurationList = D28A33121767824F007B5938 /* Build configuration list for PBXProject "CustomLinkRecognition" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D28A33161767824F007B5938 /* testing */,
-				D28A33371767824F007B5938 /* testingTests */,
+				D28A33161767824F007B5938 /* CustomLinkRecognition */,
+				D28A33371767824F007B5938 /* CustomLinkRecognitionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,37 +242,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6E1444DFCAFF4374B25221FB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-		};
-		7130F6BD4B684C839EA06906 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D28A33131767824F007B5938 /* Sources */ = {
@@ -304,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		D28A333E1767824F007B5938 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D28A33161767824F007B5938 /* testing */;
+			target = D28A33161767824F007B5938 /* CustomLinkRecognition */;
 			targetProxy = D28A333D1767824F007B5938 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,15 +362,14 @@
 		};
 		D28A334A1767824F007B5938 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1243F19332149F7B1CBA0BD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testing/testing-Prefix.pch";
-				INFOPLIST_FILE = "testing/testing-Info.plist";
+				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
+				INFOPLIST_FILE = "CustomLinkRecognition/CustomLinkRecognition-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomLinkRecognition;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,15 +377,14 @@
 		};
 		D28A334B1767824F007B5938 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1243F19332149F7B1CBA0BD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "testing/testing-Prefix.pch";
-				INFOPLIST_FILE = "testing/testing-Info.plist";
+				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
+				INFOPLIST_FILE = "CustomLinkRecognition/CustomLinkRecognition-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomLinkRecognition;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,8 +405,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "testingTests/testingTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "testingTests/CustomLinkRecognitionTests-Info.plist";
+				PRODUCT_NAME = CustomLinkRecognitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -462,8 +423,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testing/testing-Prefix.pch";
-				INFOPLIST_FILE = "testingTests/testingTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "testingTests/CustomLinkRecognitionTests-Info.plist";
+				PRODUCT_NAME = CustomLinkRecognitionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -472,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D28A33121767824F007B5938 /* Build configuration list for PBXProject "testing" */ = {
+		D28A33121767824F007B5938 /* Build configuration list for PBXProject "CustomLinkRecognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D28A33471767824F007B5938 /* Debug */,
@@ -481,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D28A33491767824F007B5938 /* Build configuration list for PBXNativeTarget "testing" */ = {
+		D28A33491767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D28A334A1767824F007B5938 /* Debug */,
@@ -490,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "testingTests" */ = {
+		D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognitionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D28A334D1767824F007B5938 /* Debug */,
