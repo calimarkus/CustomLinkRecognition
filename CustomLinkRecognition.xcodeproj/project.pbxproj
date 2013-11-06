@@ -15,22 +15,7 @@
 		D28A332B1767824F007B5938 /* SWTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A332A1767824F007B5938 /* SWTAppDelegate.m */; };
 		D28A33311767824F007B5938 /* SWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A33301767824F007B5938 /* SWTViewController.m */; };
 		D28A33331767824F007B5938 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28A33321767824F007B5938 /* Images.xcassets */; };
-		D28A333A1767824F007B5938 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A33391767824F007B5938 /* XCTest.framework */; };
-		D28A333B1767824F007B5938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331A1767824F007B5938 /* Foundation.framework */; };
-		D28A333C1767824F007B5938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A331E1767824F007B5938 /* UIKit.framework */; };
-		D28A33441767824F007B5938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D28A33421767824F007B5938 /* InfoPlist.strings */; };
-		D28A33461767824F007B5938 /* CustomLinkRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D28A333D1767824F007B5938 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D28A330F1767824F007B5938 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D28A33161767824F007B5938;
-			remoteInfo = CustomLinkRecognition;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D28A33171767824F007B5938 /* CustomLinkRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLinkRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,11 +31,7 @@
 		D28A332F1767824F007B5938 /* SWTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTViewController.h; sourceTree = "<group>"; };
 		D28A33301767824F007B5938 /* SWTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWTViewController.m; sourceTree = "<group>"; };
 		D28A33321767824F007B5938 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLinkRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A33391767824F007B5938 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D28A33411767824F007B5938 /* CustomLinkRecognitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomLinkRecognitionTests-Info.plist"; sourceTree = "<group>"; };
-		D28A33431767824F007B5938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLinkRecognitionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,16 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28A33351767824F007B5938 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28A333A1767824F007B5938 /* XCTest.framework in Frameworks */,
-				D28A333C1767824F007B5938 /* UIKit.framework in Frameworks */,
-				D28A333B1767824F007B5938 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				D28A33201767824F007B5938 /* CustomLinkRecognition */,
-				D28A333F1767824F007B5938 /* CustomLinkRecognitionTests */,
 				D28A33191767824F007B5938 /* Frameworks */,
 				D28A33181767824F007B5938 /* Products */,
 			);
@@ -91,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				D28A33171767824F007B5938 /* CustomLinkRecognition.app */,
-				D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,24 +100,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D28A333F1767824F007B5938 /* CustomLinkRecognitionTests */ = {
-			isa = PBXGroup;
-			children = (
-				D28A33451767824F007B5938 /* CustomLinkRecognitionTests.m */,
-				D28A33401767824F007B5938 /* Supporting Files */,
-			);
-			path = CustomLinkRecognitionTests;
-			sourceTree = "<group>";
-		};
-		D28A33401767824F007B5938 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D28A33411767824F007B5938 /* CustomLinkRecognitionTests-Info.plist */,
-				D28A33421767824F007B5938 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,24 +120,6 @@
 			productReference = D28A33171767824F007B5938 /* CustomLinkRecognition.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D28A33371767824F007B5938 /* CustomLinkRecognitionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognitionTests" */;
-			buildPhases = (
-				D28A33341767824F007B5938 /* Sources */,
-				D28A33351767824F007B5938 /* Frameworks */,
-				D28A33361767824F007B5938 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D28A333E1767824F007B5938 /* PBXTargetDependency */,
-			);
-			name = CustomLinkRecognitionTests;
-			productName = CustomLinkRecognitionTests;
-			productReference = D28A33381767824F007B5938 /* CustomLinkRecognitionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,11 +129,6 @@
 				CLASSPREFIX = SWT;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = nxtbgthng;
-				TargetAttributes = {
-					D28A33371767824F007B5938 = {
-						TestTargetID = D28A33161767824F007B5938;
-					};
-				};
 			};
 			buildConfigurationList = D28A33121767824F007B5938 /* Build configuration list for PBXProject "CustomLinkRecognition" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -216,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				D28A33161767824F007B5938 /* CustomLinkRecognition */,
-				D28A33371767824F007B5938 /* CustomLinkRecognitionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,14 +155,6 @@
 			files = (
 				D28A33331767824F007B5938 /* Images.xcassets in Resources */,
 				D28A33251767824F007B5938 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D28A33361767824F007B5938 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28A33441767824F007B5938 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,37 +171,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28A33341767824F007B5938 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D28A33461767824F007B5938 /* CustomLinkRecognitionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D28A333E1767824F007B5938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D28A33161767824F007B5938 /* CustomLinkRecognition */;
-			targetProxy = D28A333D1767824F007B5938 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D28A33231767824F007B5938 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D28A33241767824F007B5938 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D28A33421767824F007B5938 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D28A33431767824F007B5938 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -388,46 +283,6 @@
 			};
 			name = Release;
 		};
-		D28A334D1767824F007B5938 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomLinkRecognition.app/CustomLinkRecognition";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CustomLinkRecognitionTests/CustomLinkRecognitionTests-Info.plist";
-				PRODUCT_NAME = CustomLinkRecognitionTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D28A334E1767824F007B5938 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomLinkRecognition.app/CustomLinkRecognition";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CustomLinkRecognition/CustomLinkRecognition-Prefix.pch";
-				INFOPLIST_FILE = "CustomLinkRecognitionTests/CustomLinkRecognitionTests-Info.plist";
-				PRODUCT_NAME = CustomLinkRecognitionTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,15 +300,6 @@
 			buildConfigurations = (
 				D28A334A1767824F007B5938 /* Debug */,
 				D28A334B1767824F007B5938 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D28A334C1767824F007B5938 /* Build configuration list for PBXNativeTarget "CustomLinkRecognitionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D28A334D1767824F007B5938 /* Debug */,
-				D28A334E1767824F007B5938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
